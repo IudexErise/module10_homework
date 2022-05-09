@@ -1,0 +1,47 @@
+.input {
+    border: 4px solid lightblue;
+    border-radius: 12%;
+}
+
+.send {
+    background-color: lightblue;
+    border: none;
+    height: 1.5rem;
+    margin: 0 10px;
+    border-radius: 12%;
+}
+
+.send:hover {
+    border: 2px solid blue;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.geo {
+    background-color: lightblue;
+    border: none;
+    height: 1.5rem;
+    border-radius: 12%;
+}
+
+.geo:hover {
+    border: 2px solid blue;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.output {
+    margin-top: 10px;
+    width: 400px;
+    border: 4px solid lightblue;
+    height: 500px;
+    border-radius: 2%;
+}
+
+.chat-message {
+    border: 2px solid lightblue; 
+    margin-left: 5px; 
+    margin-right: 5px; 
+    width: 30%;
+    border-radius: 12%;
+}
